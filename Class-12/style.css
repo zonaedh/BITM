@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/banner.png");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.nav-links {
+    margin: 0px;
+}
+
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    position: relative;
+}
+
+.nav-links li::after {
+    content: '';
+    background-color: #fff;
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    border-radius: 2px;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.nav-links li:hover:after {
+    width: 80%;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.register-btn {
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.header h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-top: 22%;
+    text-transform: capitalize;
+    font-size: 4vw;
+}
+
+.search-box {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-box form input {
+    display: block;
+    border: 0px;
+    outline: none;
+    background: transparent;
+    width: 180px;
+}
+
+.search-box form button {
+    background-color: coral;
+    outline: none;
+    border: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.location-input {
+    flex: 1;
+}
+
+.search-box form label {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* ................Exclusive section................ */
+.sub-title {
+    margin: 50px 0px 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(80, 78, 78);
+    text-align: center;
+}
+
+.exclusive div img {
+    border-radius: 10px;
+    height: 130px;
+}
+
+.exclusive div {
+    position: relative;
+}
+
+.exclusive span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 3;
+    display: none;
+    transition: 10s;
+}
+
+.exclusive .col:hover span {
+    display: block;
+    transition: 10s;
+}
+
+.exclusive col:hover layer::after {
+    background-color: black;
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity: .3;
+    border-radius: 10px;
+    display: block;
+}
+
+.exclusive col:hover layer::after {
+    background-color: black;
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity: .3s;
+    border-radius: 10px;
+    display: block;
+}
+
+/* ...........trending............. */
+.trending img {
+    border-radius: 10px;
+}
+
+.trending span {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* ...........CTA............. */
+.cta {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f3221, transparent), url(../images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5%;
+    color: whitesmoke;
+}
+
+.cta h3 {
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 5vw;
+}
+
+.cta p {
+    font-size: 20px;
+}
+
+.cta-btn {
+    background-color: coral;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.cta-btn:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+/* ................Travellers Stories............. */
+.travellers-stories img {
+    border-radius: 10px;
+}
+
+.travellers-stories .col p {
+    position: relative;
+    top: -50%;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    padding: 10px 10px;
+    /* eikhane opacity 0 banaisi jno na dekha jay */
+    opacity: 0;
+    transition: 300ms;
+}
+
+.travellers-stories .col:first-child {
+    position: relative;
+}
+
+.travellers-stories .col .story-layer {
+    content: '';
+    width: 356px;
+    height: 356px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: #000;
+    /* eikhane opacity 0 banaisi jno na dekha jay */
+    opacity: 0;
+    transition: 300ms;
+}
+
+.travellers-stories .col:hover .story-layer {
+    /* column er upr hover krle story layer er opacity ditasi jno dekha jay */
+    opacity: .5;
+}
+
+.travellers-stories .col:hover p {
+    /* column er upr hover krle p er opacity ditasi jno dekha jay */
+    opacity: 1;
+}
+
+/* ............footer......... */
+.footer {
+    text-align: center;
+}
+
+.footer hr {
+    height: 10px;
+    background-color: #000;
+}
+
+.social-icon i {
+    background-color: coral;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    line-height: 50px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+
+/* ............list nav............. */
+
+.list-nav{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px gray;
+}
+.list-nav .nav-links li a{
+    color: #000;
+}
+.list-nav .register-btn{
+    background-color: coral;
+    color: white;
+}
+.list-nav .nav-links li::after{
+    background-color: #000;
+}
+
+.list{
+    margin: 50px 0;
+}
+.list .house{
+    margin-bottom: 10px;
+}
+.list .house h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin: 15px 0;
+}
+.list .house span{
+    font-weight: 600;
+    color: coral;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.star i{
+    color: goldenrod;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.box-1{
+    position: relative;
+}
+/* .price{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+} */
+.price p{
+    margin: 0px;
+}
+.price-button{
+    padding-left: 200px;
+}
+
+.title-hotel{
+    color: coral;
+}
+
+.house img{
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.sidebar{
+    text-align: center;
+}
+.sidebar p{
+    text-align: left;
+    margin-left: 6%;
+    margin-bottom: 0;
+}
+
+.sidebar span{
+    position: relative;
+    top: -24px;
+    right: -140px;
+}
+
+
+
+
+
+
+
+/* .............Small Device Resposive......... */
+@media(max-width:700px) {
+    .logo {
+        position: fixed;
+        top: 25px;
+        left: 7%;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        z-index: 4;
+        width: 100%;
+        padding: 100px 7% 0;
+        text-align: right;
+
+        background: rgba(0, 0, 0, 0.6);
+        
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+
+
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height ease-out 300ms;
+        box-shadow: 0px 0px 4px black;
+
+    }
+
+    nav .nav-links li {
+        display: block;
+        margin: 15px 0 30px;
+    }
+
+    .register-btn {
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+
+    .nav-links li::after {
+        left: 50%;
+        bottom: 50%;
+        transform: translate(0, 50%);
+    }
+
+    .nav-links li:hover:after {
+        width: 10%;
+    }
+
+    .fa-bars {
+        display: block;
+
+    }
+
+/* ..........list page............. */
+    .list-nav {
+        background-color: #fff;
+        box-shadow: 0 px 0px #000;
+    }
+
+
+    nav .fa-bars {
+        display: block;
+        position: fixed;
+        top: 25px;
+        color: white;
+        right: 7%;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .hidemenu {
+        max-height: 400px;
+
+    }
+
+    .header h1 {
+        padding-top: 100px;
+        font-size: 40px;
+    }
+
+    .search-box {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .search-box form {
+        display: block;
+    }
+
+    .search-box form input {
+        border-bottom: 1px solid coral;
+        width: 100%;
+        margin: 10px 0 20px;
+        padding-bottom: 8px;
+    }
+
+    .search-box form button {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .promos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .promos img {
+        max-width: 200px;
+        height: 100%;
+    }
+
+    .promos div {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .stories {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stories img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .stories .story-layer {
+        opacity: 1;
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .stories .col {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .travellers-stories .col p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    .travellers-stories .col .story-layer {
+        opacity: .5;
+    }
+
+    .list-nav .nav-links li a{
+        color: white;
+    }
+
+    .list-nav .nav-links li::after{
+        background-color: white;
+    }
+    
+    .house img{
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+    .house-content{
+        padding-left: 25px;
+    }
+    .price{
+        right: 6%;
+    }
+    .list{
+        padding-top: 75px;
+
+    }
+    
+
+}

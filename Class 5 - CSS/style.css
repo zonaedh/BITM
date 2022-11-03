@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* .box-one{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    float: left;
+}   
+.box-two{
+    height: 200px;
+    width: 300px;
+    background-color: bisque;
+    float:left;
+
+} */
+
+.area{
+    height: 300px; ;
+    width: 600px ;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    border-radius: 100%;
+}
+
+/* .stand{
+    height: 800px;
+    width: 40px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 150px;
+    top: 58px;
+
+
+}
+.rope{
+    height: 20px;
+    width: 60px;
+    background-color: coral;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.rope2 {
+    top: 240px;
+} */
+
+.area-2{
+    height: 400px;
+    width: 800px;
+    border-top: 1px solid red;
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+    /* background-color:coral ; */
+    background: url(image/bitm\logo.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.area-3{
+    margin-top: 100px ;
+    height: 500px;
+    width: 500px;
+    border: 1px solid coral;
+}

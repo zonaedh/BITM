@@ -1,0 +1,37 @@
+.menu ul li{
+    width: 120px;
+    text-align: center;
+}
+.active{
+    background-color: coral;
+    border-radius: 5px;
+}
+.carousel-inner img{
+    height: 500px;
+}
+.img-logo{
+    height: 1px;
+    width: 0.5px;
+}
+.text-box{
+    text-align: center;
+}
+.card p{
+    text-align: justify;
+}
+.contact{
+    background-color: darkblue;
+    height: 400px;
+    padding: 136px 88px;
+    text-align: justify;
+}
+.contact h1{
+    color: whitesmoke;
+}
+.contact p{
+    color: whitesmoke;
+    padding: 19px 82px 0px;
+}
+.btn-aubmit{
+    background-color: aqua;
+}

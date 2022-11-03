@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Styabnb</title>
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script defer src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar bg-dark navbar-expand-lg d-flex flex-row align-items-center justify-content-between">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./image/logo.png" alt="logo" class="logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <img src="./image/menu.svg" alt="menu">
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-md-flex flex-column gap-3 flex-md-row align-items-end" id="navbarSupportedContent">
+                        <ul class="nav-links navbar-nav d-md-flex flex-column flex-md-row flex-grow-1 justify-content-center">
+                            <li class="nav-item mx-2 ">
+                                <a href="#" class="nav-link text-center text-capitalize text-white p-2">popular places</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#" class="nav-link text-center text-capitalize text-white p-2">travel outside</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#" class="nav-link text-center text-capitalize text-white p-2">online packages</a>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-light text-dark rounded-pill px-3 mt-4 mt-md-0">Registration</a>
+                        </div>
+                    </div>
+                    
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-white text-capitalize text-center">find your next stay</h1>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="search-box bg-light py-3">
+                        <form class="form d-flex flex-column flex-md-row align-items-md-center flex-wrap">
+                            <div class="ms-md-2 mt-md-0 mt-3 mb-3 px-1">
+                                <label for="location" class="text-capitalize form-label fw-bold">location</label>
+                                <input class="form-control border-top-0 border-start-0 border-end-0 bg-transparent d-block" type="text"
+                                    name="location" id="location" placeholder="Where are you going?">
+                            </div>
+                            <div class="mb-3 px-1">
+                                <label for="checkin" class="text-capitalize form-label fw-bold">check in</label>
+                                <input class="form-control border-top-0 border-start-0 border-end-0 bg-transparent d-block" type="text" name="checkin"
+                                    id="checkin" placeholder="Add Date">
+                            </div>
+                            <div class="mb-3 px-1">
+                                <label for="checkout" class="text-capitalize form-label fw-bold">check out</label>
+                                <input class="form-control border-top-0 border-start-0 border-end-0 bg-transparent d-block" type="text" name="checkout"
+                                    id="checkout" placeholder="Add Date">
+                            </div>
+                            <div class="mb-3 px-1">
+                                <label for="guest" class="text-capitalize form-label fw-bold">guest</label>
+                                <input class="form-control border-top-0 border-start-0 border-end-0 bg-transparent d-block" type="text" name="guest"
+                                    id="guest" placeholder="Add Guest">
+                            </div>
+
+                            <button type="submit" class="border-0 btn ms-2 align-self-center">
+                                <img src="./image/search.png" alt="search">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="exclusive">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="sub-title text-capitalize">exclusives</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="./image/image-1.png" alt="image-1" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-2.png" alt="image-2" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-3.png" alt="image-3" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-4.png" alt="image-4" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-5.png" alt="image-5" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-5 d-flex flex-row-reverse">
+                <div class="col">
+                    <img src="./image/image-1.png" alt="image-1" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-2.png" alt="image-2" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-3.png" alt="image-3" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-4.png" alt="image-4" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light mt-3">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/image-5.png" alt="image-5" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize text-center text-light">london</h3>
+                        <p class="text-capitalize text-center text-light">starts at $250</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending pb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="sub-title text-capitalize">trending places</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-5 d-flex flex-row">
+                <div class="col">
+                    <img src="./image/new-york.png" alt="new-york.png" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize fw-bold mt-3 fs-3">new york</h3>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/new-delhi.png" alt="new-delhi.png" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize fw-bold mt-3 fs-3">new delhi</h3>
+                    </span>
+                </div>
+                <div class="col">
+                    <img src="./image/dubai.png" alt="dubai.png" class="img-fluid rounded-3">
+                    <span>
+                        <h3 class="text-capitalize fw-bold mt-3 fs-3">dubai</h3>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 ofset-md-1 text-light">
+                    <h3 class="fs-1 lh-base text-dark">Lorem ipsum dolor sit <br> amet consectetur.</h3>
+                    <p class=" fs-5 fw-light text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                        officiis.</p>
+                    <a class="btn btn-light text-capitalize rounded-pill mt-4">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="stories my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="sub-title text-capitalize">traveler stories</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col story">
+                    <img src="./image/story-1.png" alt="story-1" class="img-fluid rounded">
+                    <p class="mt-3 text-center text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aut, tempore?</p>
+                </div>
+                <div class="col story">
+                    <img src="./image/story-2.png" alt="story-2.png" class="img-fluid rounded">
+                    <p class="mt-3 text-center text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aut, tempore?</p>
+                </div>
+                <div class="col story">
+                    <img src="./image/story-3.png" alt="story-3" class="img-fluid rounded">
+                    <p class="mt-3 text-center text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aut, tempore?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer pt-5 rounded-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="pb-4">
+                        <h3 class="text-capitalize">about us</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis molestiae dolor eligendi
+                            quaerat minima iusto placeat commodi velit. Magni culpa unde, nulla repudiandae delectus eos
+                            impedit excepturi nobis necessitatibus dolorum consequatur doloremque sunt corporis facilis
+                            maxime dicta ut iste optio molestiae sed rem at possimus. Quae voluptatibus distinctio unde
+                            vero!</p>
+                        <a href="#" class="btn btn-dark text-capitalize rounded-pill">read more</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitch"></i>
+                        </a>
+                    </div>
+                    <hr>
+                    <p>copyright &copy; 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

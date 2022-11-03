@@ -1,0 +1,122 @@
+.col-1{
+    width: 8.33;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+.wrapper{
+    margin: auto;
+    height: 1000px;
+    width: 800px;
+    border: 1px solid coral;
+}
+.row-1{
+    height: 100px;
+    border-bottom: 1px solid coral;
+}
+.logo{
+    border-right: 1px solid coral;
+    height: 100px;
+}
+.row-2{
+    height: 150px;
+    border-bottom: 1px solid coral;
+}
+
+.slider-1{
+    height: 150px;
+    border-right: 1px solid coral;
+    float: left;
+}
+.slider-2{
+    height: 150px;
+    border-right: 1px solid coral;
+    float: left;
+}
+.slider-3{
+    height: 150px;
+    /* border-right: 1px solid coral; */
+    float: left;
+}
+
+.row-3{
+    height:700px;
+    width: 100%;
+    border-bottom: 1px solid coral;
+}
+
+.sidebar{
+    height:700px;
+    border: 1px solid coral;
+    float: left;
+}
+.main-content{
+    height: 650px;
+    float: left;
+}
+
+.slider {
+    height: 100%;
+    border-right: 1px solid coral;
+}
+.card{
+        height: 386px;
+        border: 1px solid coral;
+        margin: 15px;
+        padding: 0px 25px;
+        text-align: justify;
+        background: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px coral;
+        overflow-y: scroll;
+}
+
+.card-header{
+    padding-top: 3px;
+}
+.card-header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+    
+}
+
+.card-body p{
+    font-size: 23px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 1.5;
+
+}

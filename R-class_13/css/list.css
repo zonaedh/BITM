@@ -1,0 +1,40 @@
+.list-nav .btn {
+    background-color: #FF485A;
+}
+
+section h2 {
+    color: #FF485A;
+}
+
+.ratings i {
+    color: #FF485A;
+}
+
+.price span {
+    color: #FF485A;
+}
+
+.house .btn {
+    background-color: #FF485A;
+    transition: all ease-in-out 200ms;
+}
+
+.house .btn:hover {
+    box-shadow: 0px 0px 4px #FF485A;
+}
+
+.filter span {
+    background-color: #FF485A;
+}
+
+.filter-section {
+    border: 1px solid rgba(177, 175, 175, 0.4);
+}
+
+
+@media (max-width: 768px) {
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}

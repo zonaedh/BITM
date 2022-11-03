@@ -1,0 +1,8 @@
+.menu ul li{
+    width: 120px;
+    text-align: center;
+}
+.active{
+    background-color: coral;
+    border-radius: 5px;
+}
