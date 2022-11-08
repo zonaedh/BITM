@@ -9,14 +9,14 @@
     width: 100%;
 }
 .sub-title{
-    color: coral;
+    color: green;
 }
 
 .free-shipping i{
     color: coral;
 }
 .mt-4 i{
-    color: coral;
+    color: green;
 }
 .card i{
     color: coral;
@@ -36,5 +36,17 @@
     font-weight: 700;
 }
 .btn .btn-denger{
-    color: coral;
+    color: green;
+}
+.btn-headline{
+   margin-left: 800px; 
+   background-color: coral;
+   border-radius: 4px;
+   width: 80px;
+
+   
+}
+.btn-headline p{
+    color: white;
+    margin-top: 10px;
 }
