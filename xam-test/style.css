@@ -3,20 +3,24 @@
     border: 0;
     padding: 0;
     margin: 0;
+ 
+}
+body{
+    background-color: #d3f0e4;
 }
 .slider{
     height: 50%;
     width: 100%;
 }
 .sub-title{
-    color: green;
+    color: coral;
 }
 
 .free-shipping i{
     color: coral;
 }
 .mt-4 i{
-    color: green;
+    color: coral;
 }
 .card i{
     color: coral;
@@ -35,9 +39,7 @@
 .sub-head{
     font-weight: 700;
 }
-.btn .btn-denger{
-    color: green;
-}
+
 .btn-headline{
    margin-left: 800px; 
    background-color: coral;
@@ -46,7 +48,30 @@
 
    
 }
-.btn-headline p{
+.btn-success{
+    border-radius: 4px;
+    height: 50px;
+    width: 150px;
+    background-color: coral;
+}
+.banner .btn-success{
     color: white;
-    margin-top: 10px;
+    font-weight: 600;
+}
+.btn-headline-banner{
+    height: 50px;
+    width: 130px;
+    margin-left: 740px; 
+    background-color: coral;
+    border-radius: 4px;
+}
+.navbar:hover {
+    color: coral;
+    text-decoration: underline;
+    background-color: d3f0e4;
+}
+
+.btn-headline-banner{
+    color: white;
+    font-weight: 600;
 }
