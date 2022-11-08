@@ -9,19 +9,35 @@
     width: 100%;
 }
 .sub-title{
-    color: green;
+    color: coral;
 }
 
 .free-shipping i{
-    color: forestgreen;
+    color: coral;
 }
 .mt-4 i{
-    color: forestgreen;
+    color: coral;
 }
 .card i{
-    color: forestgreen;
+    color: coral;
     align-items: center;
 }
 .sr{
     width: 100%;
+}
+.card-header h4{
+    color: coral;
+    font-weight: 600;
+}
+.card-text{
+    font-weight: 500;
+}
+.sub-head{
+    font-weight: 700;
+}
+.btn .btn-denger{
+    color: coral;
+}
+.banner{
+    
 }
